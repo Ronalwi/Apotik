@@ -1,0 +1,124 @@
+.sidebar {
+  position: fixed;
+  color: #f0f0f0;
+  text-align: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #1d1c1c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  background-color: #333;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Kotak Warna */
+.success {
+  background-color: #ecf0d8;
+  color: #3c763d;
+}
+
+.warning {
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
+
+.danger {
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+.info {
+  background-color: #d9edf7;
+  color: #31708f;
+}
+
+/* style.css */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard_card {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 40px;
+  width: 27%;
+  height: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#card_flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
